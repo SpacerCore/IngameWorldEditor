@@ -3,6 +3,7 @@
 
 // Automatically generated block
 #pragma region Includes
+#include "Spacer/CoreTypes/CoreTypes.h"
 #include "Plugin.h"
 #pragma endregion
 

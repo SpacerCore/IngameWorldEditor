@@ -214,6 +214,12 @@
     <Filter Include="Engine SDK\4. Gothic II NoTR\Overloads">
       <UniqueIdentifier>{225cc81e-eae0-432b-9f39-e93512644977}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugin\Spacer">
+      <UniqueIdentifier>{3511f076-ef34-4f0b-970a-9ac725e88835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin\Spacer\CoreTypes">
+      <UniqueIdentifier>{9225595a-bf07-4144-9912-800980dc86a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Interface.cpp">
@@ -2776,6 +2782,12 @@
     </ClInclude>
     <ClInclude Include="Plugin.cpp">
       <Filter>Plugin\Workspace\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Spacer\CoreTypes\CoreTypes.h">
+      <Filter>Plugin\Spacer\CoreTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spacer\CoreTypes\CoreTypes.cpp">
+      <Filter>Plugin\Spacer\CoreTypes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

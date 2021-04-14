@@ -3,6 +3,7 @@
 
 // Automatically generated block
 #pragma region Includes
+#include "Spacer/CoreTypes/CoreTypes.cpp"
 #include "Plugin.cpp"
 #pragma endregion
 
