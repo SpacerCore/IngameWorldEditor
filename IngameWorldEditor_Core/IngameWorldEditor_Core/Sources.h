@@ -4,6 +4,7 @@
 // Automatically generated block
 #pragma region Includes
 #include "Spacer/CoreTypes/CoreTypes.cpp"
+#include "Spacer/MainWindow/MainWindow.cpp"
 #include "Plugin.cpp"
 #pragma endregion
 

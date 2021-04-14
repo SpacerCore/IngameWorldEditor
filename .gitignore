@@ -32,3 +32,7 @@
 *.app
 /IngameWorldEditor_Core/IngameWorldEditor_Core/MP Release
 /IngameWorldEditor_Core/.vs/IngameWorldEditor_Core/v16
+/IngameWorldEditor_Core/IngameWorldEditor_Core/MP Debug
+/IngameWorldEditor_Core/PDB
+/IngameWorldEditor_UI/IngameWorldEditor_UI/bin/Debug
+/IngameWorldEditor_UI/IngameWorldEditor_UI/bin/x86/Release

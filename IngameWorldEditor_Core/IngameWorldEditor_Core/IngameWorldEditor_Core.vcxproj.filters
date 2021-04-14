@@ -220,6 +220,9 @@
     <Filter Include="Plugin\Spacer\CoreTypes">
       <UniqueIdentifier>{9225595a-bf07-4144-9912-800980dc86a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugin\Spacer\MainWindow">
+      <UniqueIdentifier>{81bf3b41-3dc6-4285-9583-050a13585f3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Interface.cpp">
@@ -2788,6 +2791,9 @@
     </ClInclude>
     <ClInclude Include="Spacer\CoreTypes\CoreTypes.cpp">
       <Filter>Plugin\Spacer\CoreTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spacer\MainWindow\MainWindow.cpp">
+      <Filter>Plugin\Spacer\MainWindow</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

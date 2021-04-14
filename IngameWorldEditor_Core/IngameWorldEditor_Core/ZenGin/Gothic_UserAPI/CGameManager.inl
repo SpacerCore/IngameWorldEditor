@@ -3,3 +3,4 @@
 // User API for CGameManager
 // Add your methods here
 
+void Init_Union( HWND__*& );

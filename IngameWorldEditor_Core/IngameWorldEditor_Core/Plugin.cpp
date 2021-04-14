@@ -7,6 +7,7 @@ namespace GOTHIC_ENGINE {
   // Your code ...
   
   void Game_Entry() {
+    UI_Initialize();
   }
   
   void Game_Init() {

@@ -1,0 +1,6 @@
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\bin\Debug\IngameWorldEditor_UI.dll
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\bin\Debug\IngameWorldEditor_UI.pdb
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\Debug\IngameWorldEditor_UI.csprojAssemblyReference.cache
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\Debug\IngameWorldEditor_UI.csproj.CoreCompileInputs.cache
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\Debug\IngameWorldEditor_UI.dll
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\Debug\IngameWorldEditor_UI.pdb
