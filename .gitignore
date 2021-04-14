@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/IngameWorldEditor_Core/IngameWorldEditor_Core/MP Release
+/IngameWorldEditor_Core/.vs/IngameWorldEditor_Core/v16
