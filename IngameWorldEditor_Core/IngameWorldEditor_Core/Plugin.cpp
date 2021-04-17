@@ -38,9 +38,11 @@ namespace GOTHIC_ENGINE {
   }
 
   void LoadBegin() {
+    UI_VobTree_LockRedraw();
   }
 
   void LoadEnd() {
+    UI_VobTree_UnlockRedraw();
   }
 
   void Game_LoadBegin_NewGame() {

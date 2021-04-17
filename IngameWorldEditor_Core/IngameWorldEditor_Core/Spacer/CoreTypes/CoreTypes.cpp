@@ -21,4 +21,36 @@ namespace GOTHIC_ENGINE {
 
 		return proc;
 	}
+
+	int UpdateDInput_Union() { return 0;  }
+
+	HOOK Hook_UpdateDInput PATCH_IF( &UpdateDInput, &UpdateDInput_Union, false );
+
+	void Core_StopInput() {
+		cmd << "Core_StopInput " << AHEX32( zinput ) << endl;
+		if( !zinput )
+			return;
+		
+		zinput->SetDeviceEnabled( zTInputDevice::zINPUT_MOUSE,		False );
+		zinput->SetDeviceEnabled( zTInputDevice::zINPUT_KEYBOARD, False );
+		Hook_UpdateDInput.Commit();
+	}
+
+	void Core_StartInput() {
+		cmd << "Core_StartInput " << AHEX32( zinput ) << endl;
+		if( !zinput )
+			return;
+
+		zinput->SetDeviceEnabled( zTInputDevice::zINPUT_MOUSE,		True );
+		zinput->SetDeviceEnabled( zTInputDevice::zINPUT_KEYBOARD, True );
+		Hook_UpdateDInput.Detach();
+	}
+
+	const char* Core_GetVobName( void* vob ) {
+		return ((zCVob*)vob)->GetObjectName();
+	}
+
+	const char* Core_GetVobType( void* vob ) {
+		return ((zCVob*)vob)->_GetClassDef()->className;
+	}
 }

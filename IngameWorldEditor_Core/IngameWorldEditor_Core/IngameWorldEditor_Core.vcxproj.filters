@@ -223,6 +223,9 @@
     <Filter Include="Plugin\Spacer\MainWindow">
       <UniqueIdentifier>{81bf3b41-3dc6-4285-9583-050a13585f3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugin\Spacer\VobTree">
+      <UniqueIdentifier>{06a50623-bc8a-4769-84ec-2aa560a193c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Interface.cpp">
@@ -266,6 +269,9 @@
     </ClCompile>
     <ClCompile Include="ZenGin\Gothic_II_Addon\Statics_G2A.cpp">
       <Filter>Engine SDK\4. Gothic II NoTR\Overloads</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTypes_Exports.cpp">
+      <Filter>Plugin\Spacer\CoreTypes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2794,6 +2800,9 @@
     </ClInclude>
     <ClInclude Include="Spacer\MainWindow\MainWindow.cpp">
       <Filter>Plugin\Spacer\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Spacer\VobTree\VobTree.cpp">
+      <Filter>Plugin\Spacer\VobTree</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

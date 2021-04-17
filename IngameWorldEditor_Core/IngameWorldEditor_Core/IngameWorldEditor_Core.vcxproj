@@ -471,6 +471,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CoreTypes_Exports.cpp" />
     <ClCompile Include="DllMain.cpp" />
     <ClInclude Include="Plugin.cpp" />
     <ClCompile Include="Interface.cpp" />
@@ -500,6 +501,10 @@
       </SubType>
     </ClInclude>
     <ClInclude Include="Spacer\MainWindow\MainWindow.cpp">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Spacer\VobTree\VobTree.cpp">
       <SubType>
       </SubType>
     </ClInclude>

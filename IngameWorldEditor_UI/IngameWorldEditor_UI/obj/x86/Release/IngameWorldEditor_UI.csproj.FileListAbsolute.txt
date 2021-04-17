@@ -6,3 +6,4 @@ I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\x86\R
 I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\x86\Release\IngameWorldEditor_UI.csprojAssemblyReference.cache
 I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\x86\Release\IngameWorldEditor_UI.Classes.Forms.MainWindow.resources
 I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\x86\Release\IngameWorldEditor_UI.csproj.GenerateResource.cache
+I:\Plugins\IngameWorldEditor\IngameWorldEditor_UI\IngameWorldEditor_UI\obj\x86\Release\IngameWorldEditor_UI.Classes.Controls.VobTree.resources

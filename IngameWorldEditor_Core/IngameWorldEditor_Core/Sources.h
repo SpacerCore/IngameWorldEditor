@@ -5,6 +5,7 @@
 #pragma region Includes
 #include "Spacer/CoreTypes/CoreTypes.cpp"
 #include "Spacer/MainWindow/MainWindow.cpp"
+#include "Spacer/VobTree/VobTree.cpp"
 #include "Plugin.cpp"
 #pragma endregion
 

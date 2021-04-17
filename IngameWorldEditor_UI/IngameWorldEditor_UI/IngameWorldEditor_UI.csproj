@@ -79,6 +79,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Controls\VobTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Classes\Controls\VobTree.Designer.cs">
+      <DependentUpon>VobTree.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes\Forms\MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Classes\Controls\VobTree.resx">
+      <DependentUpon>VobTree.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Classes\Forms\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
