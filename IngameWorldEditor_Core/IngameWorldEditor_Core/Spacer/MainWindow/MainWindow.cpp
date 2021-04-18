@@ -17,8 +17,6 @@ namespace GOTHIC_ENGINE {
 
     if( initScreen )
       InitScreen_Close();
-
-    
   }
 
   HOOK Hook_zCRnd_D3D_XD3D_InitPerDX PATCH( &zCRnd_D3D::XD3D_InitPerDX, &zCRnd_D3D::XD3D_InitPerDX_Union );
